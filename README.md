@@ -31,11 +31,8 @@ The checks cover real contact links, internal navigation targets, project status
 
 ## Deploy with GitHub Pages
 
-Publish `index.html`, `styles.css`, `script.js`, and `assets/` from the root of the `main` branch.
+The site is deployed from the root of the `main` branch in `dheeraj9932/portfolio`.
 
-Repository naming determines the public URL:
+Live URL: <https://dheeraj9932.github.io/portfolio/>
 
-- A repository named `dheeraj9932.github.io` publishes the user site at `https://dheeraj9932.github.io/`.
-- The current `dheeraj.github.io` repository can publish a project site at `https://dheeraj9932.github.io/dheeraj.github.io/` when GitHub Pages is enabled.
-
-All site assets use relative paths, so both deployment styles work.
+GitHub Pages serves `index.html`, `styles.css`, `script.js`, and `assets/` directly. All asset paths are relative to the project root.
